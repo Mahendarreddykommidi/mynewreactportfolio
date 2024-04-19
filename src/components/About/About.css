@@ -1,0 +1,64 @@
+.about-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+ 
+
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 70px 30px;
+    
+    
+    
+}
+.about-left img{
+    border-radius: 20px;
+
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    
+    
+}
+.about-skill{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+.about-skill hr{
+    width: 50%;
+    border: none;
+    outline: none;
+    height: 8px;
+    background:linear-gradient(264deg, #DF8908 -5.09%,#8415FF);
+    margin-top: 10px;
+}
+.about-skill p{
+    margin-top: 20px;
+    min-width: 150px;
+    font-weight: 500;
+    
+}
+.about-achievemnts{
+    display: flex;
+}
+@media (max-width:768px) {
+    .about-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-left img{
+        display: none;
+    }
+    
+}
+

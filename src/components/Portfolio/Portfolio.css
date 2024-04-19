@@ -1,0 +1,35 @@
+.portfolio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+
+}
+.portfolio-images{
+display: grid;
+width: 100%;
+place-items: center;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+
+
+
+}
+.portfolio-images img{
+    width: 100%;
+    display: block;
+    justify-content: center;
+
+}
+.portfolioimg{
+    display: flex;
+   ;
+    flex-wrap: wrap;
+    
+}
+.portfolioimg img{
+    width: 85%;
+}
+.portfolio img:hover{
+    transform: scale(1.1);
+}

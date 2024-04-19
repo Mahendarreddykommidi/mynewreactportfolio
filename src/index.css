@@ -1,0 +1,15 @@
+body{
+  height: 100vh;
+  background: #161513;
+  color: white;
+    
+  
+  }
+  *{
+  
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  
