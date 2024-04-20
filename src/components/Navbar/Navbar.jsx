@@ -29,11 +29,11 @@ function closemenu() {
             <nav>
                 <ul className='menulinks' ref={menuref}>
                 <img src={menuclose} onClick={closemenu} className='nav-mob-close' alt="" />
-                    <li> <Link to='hero-section'  duration={500}   offset={0} smooth="true"></Link>Home</li>
-                    <li> <Link to='about'  duration={500}   offset={-260} smooth="true"></Link>About</li>
-               
-                    <li> <Link to='portfolio'  duration={-250}   offset={-150} smooth='true'    ></Link>Portfolio</li>
-                    <li> <Link to='contact'  duration={-300}   offset={-260} smooth='true'  ></Link>Contact</li>
+<li>Home</li>
+<li>About</li>
+<li>Portfolio</li>
+<li>Contact</li>
+
                 
                         
                 </ul>

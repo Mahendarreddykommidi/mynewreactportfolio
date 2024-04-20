@@ -4,12 +4,7 @@
     padding: 10px 150px;
     
     color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-height: 55px;
 
-top: 0;
-left: 0;
-right: 0;
 
 }
 
@@ -26,7 +21,7 @@ right: 0;
 
 .menulinks li{
     font-size: 20px;
-    
+
 }
 .menulinks li:hover{
     border-bottom: 5px solid red;
@@ -45,6 +40,8 @@ right: 0;
 .nav-mob-open,.nav-mob-close{
     display: none;
 }
+
+
 @media (max-width:768px) {
     .navigation{
         padding: 0px 100px;
